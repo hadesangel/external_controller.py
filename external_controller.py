@@ -50,7 +50,7 @@ class ExternalC2Controller:
 
         # Send out config options
         self.sendToTS("arch=x86")
-        self.sendToTS("pipename=drunkxpn")
+        self.sendToTS("pipename=xpntest")
         self.sendToTS("block=500")
         self.sendToTS("go")
 
